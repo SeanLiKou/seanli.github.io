@@ -1,0 +1,18 @@
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local Ruby gems (from bundle install --path)
+vendor/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log

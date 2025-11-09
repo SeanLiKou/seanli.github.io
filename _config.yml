@@ -1,0 +1,60 @@
+# Site Settings
+title: "Sean Li – Artio & Aeron DevBlog"
+description: "Low-latency trading systems, Java performance, AI search with Danswer"
+url: "https://seanli.github.io"
+repository: "SeanLiKou/seanli.github.io"
+
+# Use Minimal Mistakes via remote theme (required for GitHub Pages)
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-gist
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+# Author Info
+author:
+  name: "Sean Li"
+  avatar: "/assets/images/avatar.jpg"
+  bio: "Ex-Intuit, CIBC. Building sub-μs trading systems with Artio + Aeron."
+  location: "Toronto, Canada"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SeanLiKou"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: ""
+
+# Defaults for posts
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+
+# Collections (for categories)
+collections:
+  java:
+    output: true
+  python:
+    output: true
+  fintech:
+    output: true
+
+# Pagination
+paginate: 5
+paginate_path: /page:num/
+
+# Search
+search: true
